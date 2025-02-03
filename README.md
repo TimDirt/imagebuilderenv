@@ -11,7 +11,7 @@ a messy state with no doco yet so good luck.
 5. terraform init
 6. terraform apply
 
-
+~~~
 sudo dnf upgrade
 sudo dnf install osbuild-composer composer-cli
 sudo systemctl enable --now osbuild-composer.socket
@@ -31,3 +31,4 @@ composer-cli blueprints depsolve BLUEPRINT-NAME
 composer-cli compose start BLUEPRINT-NAME qcow2
 composer-cli compose status
 composer-cli compose image 5851d9e9-074a-4cf0-b1c7-afbc2673a838
+~~~
